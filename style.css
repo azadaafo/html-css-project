@@ -1,0 +1,99 @@
+/**
+ * Base styles to use at the start of the class
+ *
+ * Module: HTML/CSS
+ * Lesson: 1,2
+ * Class: Scotland 2017
+ */
+
+html,
+body {
+	font-family: "Source Sans Pro","Helvetica Neue",Arial,sans-serif;
+	background-color: aliceblue;
+}
+#subject {
+	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	max-width: 760px;
+	color: rgb(248, 7, 7);
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	background-image: url(https://nykdaily.com/wp-content/uploads/2020/03/virus-4835301_1920.jpg);
+}
+#intro {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 18px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	max-width: 730px;
+}
+.title {
+	color: rgb(248, 144, 7);
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+}
+.political-virus {
+	color: rgb(254, 254, 255);
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 2%;
+	padding-bottom: 7%;
+	background-image: url(https://image.shutterstock.com/image-vector/dripping-seamless-blood-flow-liquid-260nw-493622566.jpg);
+}
+#articles-container {
+	display: flex;
+	flex-direction: row; 
+	align-items: center; 
+}
+
+.article1, .article2, .article3 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	font-size: 18px;
+
+}
+
+p, ul, h3{
+	font-size: 18px;
+	text-align: justify;
+	margin-left: 5px;
+	margin-right: 5px;
+	width: 50%;
+}
+
+/* Footer */
+
+.footer {
+	border-top: 1px solid #9e6b55;
+	color: crimson;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+/* Media queries */
+
+@media screen and (min-width: 992px) {
+
+	.navbar-brand > img {
+	   max-height: 80px;
+	}
+}
+
+
+
