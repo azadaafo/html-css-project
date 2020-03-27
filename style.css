@@ -8,11 +8,16 @@
 
 html,
 body {
+	display: block;
 	font-family: "Source Sans Pro","Helvetica Neue",Arial,sans-serif;
 	background-color: aliceblue;
+	margin: 1rem;
+    padding: 0;
 }
 #subject {
 	position: relative;
+	display: flex;
+	flex-direction: column;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -24,16 +29,7 @@ body {
 	text-align: center;
 	background-image: url(https://nykdaily.com/wp-content/uploads/2020/03/virus-4835301_1920.jpg);
 }
-#intro {
-	position: relative;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	font-size: 18px;
-	margin-left: auto;
-	margin-right: auto;
-	width: 100%;
-	max-width: 730px;
+
 }
 .title {
 	color: rgb(248, 144, 7);
@@ -42,38 +38,38 @@ body {
 	text-align: center;
 }
 .political-virus {
-	color: rgb(254, 254, 255);
+	color: rgb(161, 2, 2);
 	font-size: 30px;
 	font-weight: bold;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 2%;
-	padding-bottom: 7%;
-	background-image: url(https://image.shutterstock.com/image-vector/dripping-seamless-blood-flow-liquid-260nw-493622566.jpg);
+	padding-top: 3%;
+	padding-bottom: 1%;
 }
-#articles-container {
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.articles {
 	display: flex;
-	flex-direction: row; 
-	align-items: center; 
+	flex-direction: row;
 }
 
 .article1, .article2, .article3 {
 	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: space-around;
-	font-size: 18px;
-
-}
-
-p, ul, h3{
-	font-size: 18px;
+    flex-direction: column;
+    justify-content: flex-start;
 	text-align: justify;
-	margin-left: 5px;
-	margin-right: 5px;
-	width: 50%;
+	padding-left: auto;
+	padding-right: 6%;
+	margin-right: 70px;
+
 }
+
 
 /* Footer */
 
